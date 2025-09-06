@@ -1,0 +1,4 @@
+- pipeline.id: MYLOGSTASH
+  pipeline.workers: 1
+  pipeline.batch.size: 1
+  path.config: "./config/pipelines/my_pipeline.conf"

@@ -1,0 +1,8 @@
+- name: Ping Server
+  hosts: all
+  #become: yes 
+
+  tasks:
+
+  - name: Task ping
+    win_ping:
